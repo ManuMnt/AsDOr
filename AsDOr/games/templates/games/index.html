@@ -1,0 +1,36 @@
+{% extends 'games/base.html' %}
+{% load static %}
+{% block title %}Les As D'Or !{% endblock title %}
+{% block content %}
+    <h1>Liste des As D'Or </h1>
+    {% for year, awards in games_by_year.items %}
+        <div class="shadow-lg p-3 my-5 bg-body rounded text-center"><h2>{{ year }}</h2></div>
+        <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+            {% for award in awards %}
+                <div class="col">
+                    <div class="card border-dark text-center h-100">
+                        <img class="rounded mx-auto d-block" style="height: 150px; width: 150px;" src="{% static 'games/img/' %}{{award.game.id}}.jpeg" alt='{{award.game.name}}'>
+                        <div class="card-body">
+                            <h5 class="card-title">{{ award.game.name }}</h5>
+                            <p class="card-text">
+                                {{ award.category }}
+                            </p>
+                            <p class="card-text">
+                                {% for author in award.game.authors.all %}
+                                {{ author }}{% if not forloop.last %}<br>{% endif %}
+                                {% endfor %}
+                            </p>
+
+                        </div>
+                        <div class="card-footer">
+                            {% if user.is_authenticated %}
+                                <a href="{% url 'games:add-wishlist' award.game.id %}" class="btn btn-dark">Ajouter à la wishlist</a>
+                            {% endif %}
+                            <a href="{% url 'games:detail' award.game.id %}" class="btn btn-dark">Détail</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock content%}

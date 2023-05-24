@@ -1,0 +1,14 @@
+{% extends "games/base.html" %}
+{% block title %}Wishlist{% endblock title %}
+{% block content %}
+    <h1>La wishlist</h1>
+    {% for game in games %}
+    <div class="d-flex flex-row mb-3">
+        <div class="me-auto p-2"><h2>{{ game.name }}</h2></div>
+        <div class="p-2"><a href="{% url 'games:detail' game.id %}" class="btn btn-info">Détail du jeu</a></div>
+        <div class="p-2"><a href="{% url 'games:remove-game-wishlist' game.id %}" class="btn btn-danger">Supprimer de la wishlist</a></div>
+      </div>
+        {% empty %}
+            <p>Aucun jeu dans la wishlist.</p>
+    {% endfor %}
+{% endblock %}

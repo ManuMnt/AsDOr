@@ -1,0 +1,11 @@
+{% extends "games/base.html" %}
+{% block title %}Création du compte{% endblock title %}
+{% block content %}
+    <h1>Création du compte</h1>
+    <p class="content">Déjà enregistré ? Suivez le lien :  <a href="{% url 'games:login' %}">Se connecter</a>.</p>
+    <form method="post">
+        {% csrf_token %}
+            {{form.as_p}}
+            <button class="btn btn-info" type="submit">S'enregistrer</button>
+        </form>
+{% endblock %}

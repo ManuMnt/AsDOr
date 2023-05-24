@@ -1,0 +1,22 @@
+{% extends 'games/base.html' %}
+{% load static %}
+{% block title %}{{ award.game.name }}{% endblock title %}
+{% block content %}
+<div class="row text-center">
+    <h1>{{ award.game.name }}</h1>
+    <div class="col">
+        <img src="{% static 'games/img/' %}{{award.game.id}}.jpeg" style="height:300px; width: 300px;" alt={{award.game.name}}/>
+
+        <div>
+            <p>Auteurs : {% for author in award.game.authors.all %} {{ author }}
+            {% if not forloop.last %}, {% endif %}{% endfor %}</p>
+        </div>
+        <p>Année récompense : {{ award.year }}</p>
+        <p>Catégorie récompense : {{ award.category }}</p>
+        <p>Description : </p>
+        {% if user.is_authenticated %}
+            <a href="{% url 'games:add-wishlist' award.game.id %}" class="btn btn-dark">Ajouter à la wishlist</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock content %}

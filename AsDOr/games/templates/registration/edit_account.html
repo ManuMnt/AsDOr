@@ -1,0 +1,10 @@
+{% extends "games/base.html" %}
+{% block title %}Editer le profil{% endblock title %}
+{% block content %}
+    <h1>Editer le profil</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button class="btn btn-info" type="submit">Enregistrer</button>
+    </form>
+{% endblock %}
