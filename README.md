@@ -199,11 +199,11 @@ En conclusion, le projet de développement de l'application web "Les As d'Or des
 Les diagrammes UML sont des représentations visuelles utilisées pour modéliser les différentes parties du système. Les diagrammes UML suivants sont inclus dans les annexes :
 
 - Diagramme de cas d'utilisation : Il présente les différentes actions que les utilisateurs peuvent effectuer sur l'application et les relations entre ces actions.
-![Diagramme de cas d'utilisation de l'admin du site](./assets/diags/diag_uc_admin.png)
+![Diagramme de cas d'utilisation de l'admin du site](./assets/diags/diag_uc_admin.drawio.png)
 *Description de la capture d'écran 1.*
-![Diagramme de cas d'utilisation du visiteur](./assets/diags/diag_uc_visiteur.png)
+![Diagramme de cas d'utilisation du visiteur](./assets/diags/diag_uc_visiteur.drawio.png)
 *Description de la capture d'écran 1.*
-![Diagramme de cas d'utilisation du client](./assets/assets/diags/diag_uc_client.png)
+![Diagramme de cas d'utilisation du client](./assets/diags/diag_uc_client.drawio.png)
 *Description de la capture d'écran 1.*
 - Diagramme de classes <a id="model-classe"> : Il montre les différentes classes et leurs relations dans le système, y compris les entités principales et les fonctionnalités clés.
 ![Capture d'écran 1](chemin/vers/capture_ecran_1.png)
