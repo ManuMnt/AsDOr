@@ -138,8 +138,50 @@ Voici une description détaillée de chaque fonctionnalité implémentée dans l
 
 ### c. Captures d'écrans <a id="captures"></a>
 Pour visualiser les fonctionnalités de l'application, veuillez consulter les captures d'écran ci-dessous :
-![Capture d'écran 1](chemin/vers/capture_ecran_1.png)
-*Description de la capture d'écran 1.*
+
+![Capture d'écran 1](./assets/screenshots/accueil_visiteur.jpg)
+
+*Vue de l'accueil d'un non identifié.*
+
+![Capture d'écran 1](./assets/screenshots/detail_visiteur.jpg)
+
+*Vue du détail du jeu en tant que visiteur.*
+
+![Capture d'écran 1](./assets/screenshots/login_visiteur.jpg)
+
+*Vue de la connexion d'un visiteur.*
+
+![Capture d'écran 1](./assets/screenshots/signup_visiteur.jpg)
+
+*Vue de l'enregistrement d'un visiteur.*
+
+![Capture d'écran 1](./assets/screenshots/recherche.jpg)
+
+*Vue de la recherche d'un jeu.*
+
+![Capture d'écran 1](./assets/screenshots/accueil_logge.jpg)
+
+*Vue de l'accueil d'un client.*
+
+![Capture d'écran 1](./assets/screenshots/detail_log.jpg)
+
+*Vue du détail du jeu en tant que client.*
+
+![Capture d'écran 1](./assets/screenshots/change_pwd.jpg)
+
+*Vue de la page de changement de mot de passe.*
+
+![Capture d'écran 1](./assets/screenshots/change_pwd_ok.jpg)
+
+*Vue de la confirmation de changement de mot de passe.*
+
+![Capture d'écran 1](./assets/screenshots/edit_profile.jpg)
+
+*Vue de la page d'édition du profil client.*
+
+![Capture d'écran 1](./assets/screenshots/wishlist.jpg)
+
+*Vue de la wishlist du client.*
 ## 6. Gestion de projet <a id="gestion"></a>
 ### a. Méthodologie <a id="methodologie"></a>
 La gestion de projet pour le développement de l'application web "Les As d'Or des jeux de société" a suivi la méthodologie agile. Cette approche a permis une flexibilité et une adaptabilité accrues tout au long du processus de développement.
