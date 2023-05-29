@@ -4,8 +4,3 @@ Django==4.2
 django-debug-toolbar==4.0.0
 python-environ==0.4.54
 sqlparse==0.4.4
-.vscode/
-db.sqlite3
-__pycache__/
-.venv/
-.env
