@@ -202,35 +202,32 @@ Les diagrammes UML sont des représentations visuelles utilisées pour modélise
 
 ![Diagramme de cas d'utilisation de l'admin du site](./assets/diags/diag_uc_admin.drawio.png)
 
-*Description de la capture d'écran 1.*
+*Afin de pouvoir effectuer ses actions, il est nécessaire de s'authentifier.*
 
 ![Diagramme de cas d'utilisation du visiteur](./assets/diags/diag_uc_visiteur.drawio.png)
 
-*Description de la capture d'écran 1.*
+*Un visiteur, qu'il soit client/administrateur mais non connecté, peut voir les produits, se connecter ou créer un compte.*
 
 ![Diagramme de cas d'utilisation du client](./assets/diags/diag_uc_client.drawio.png)
 
-*Description de la capture d'écran 1.*
+*Un visiteur qui s'est authentifié a droit à plus d'actions qu'un visiteur.*
 
 - Diagramme de classes <a id="model-classe"> : Il montre les différentes classes et leurs relations dans le système, y compris les entités principales et les fonctionnalités clés.
 
 ![Diagramme de classes](./assets/diags/diag_classes.drawio.png)
-*Description de la capture d'écran 1.*
+*Un Game est crée par un ou plusieurs Author. Un Award est gagné par un seul Game. Un User a une seule Wishlist. Un User peut ajouter plusieurs Game a sa Wishlist. Une Wishlist inclus 0 ou plusieurs Game.*
 
 - Diagramme de séquence : Il illustre la séquence des interactions entre les utilisateurs et le système pour différentes fonctionnalités.
 
 ![Diagramme de séquence du module connexion](./assets/diags/diag_seq_connexion.drawio.png)
 
-*Description de la capture d'écran 1.*
-
 ![Diagramme de séquence du module inscription](./assets/diags/diag_seq_inscription.drawio.png)
 
-*Description de la capture d'écran 1.*
 
 ### b. Sources d'information utilisées <a id="sources"></a>
 Cette section répertorie les sources d'information qui ont été utilisées lors du développement de l'application web :
-	- https://www.djangoproject.com/
-	- https://stackoverflow.com/
-	- https://getbootstrap.com/
-	- https://openclassrooms.com/
-	- https://youtube.com/
+- https://www.djangoproject.com/
+- https://stackoverflow.com/
+- https://getbootstrap.com/
+- https://openclassrooms.com/
+- https://youtube.com/
