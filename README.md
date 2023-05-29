@@ -41,7 +41,7 @@
 
 ## 1. <a id="introduction">Introduction</a>
 ### a. <a id="presentation">Présentation du projet</a>
-Le projet consiste en le développement d'une application web pour les amateurs de jeux de société, nommée "Les As d'Or des jeux de société". 
+Le projet consiste en le développement d'une application web pour les amateurs de jeux de société, nommée "Les As d'Or des jeux de société".
 
 L'application permettra aux utilisateurs de visualiser les jeux de société primés, de créer et de se connecter à un compte, ainsi que d'ajouter des jeux à une liste de souhaits.
 ### b. Objectif du projet <a id="objectifs"></a>
@@ -54,7 +54,7 @@ Les jeux de société sont devenus de plus en plus populaires ces dernières ann
 Les As d'Or est un prix prestigieux récompensant les meilleurs jeux de société. Cette application vise à fournir une plateforme centralisée pour les joueurs souhaitant découvrir les jeux primés et gérer leurs préférences personnelles.
 ## 2. Analyse des besoins <a id="analyse"></a>
 ### a. Identification des parties prenantes <a id="identification"></a>
-L'analyse des besoins a commencé par l'identification des parties prenantes impliquées dans le projet de l'application web "Les As d'Or des jeux de société". 
+L'analyse des besoins a commencé par l'identification des parties prenantes impliquées dans le projet de l'application web "Les As d'Or des jeux de société".
 
 Les principales parties prenantes comprenaient :
 
@@ -92,9 +92,8 @@ Pour le développement de l'application, les technologies et outils suivants ont
 - Base de données : PostgreSQL est utilisé pour stocker les informations relatives aux jeux de société primés, aux utilisateurs et aux listes de souhaits.
 - Langages : Python est utilisé pour la logique backend, tandis que HTML, CSS et JavaScript sont utilisés pour le développement frontend.
 - Outils supplémentaires : Bootstrap est utilisé pour faciliter la création d'une interface utilisateur réactive et attrayante. Git est utilisé pour le contrôle de version du code source. Trello est utilisé pour faciliter la gestion des tâches.
-- Mise en production : PythonAnywhere est utilisé pour sa facilité d'intégration d'un projet réalisé avec Django.
 ### c. Modélisation des données <a id="modelisation"></a>
-La modélisation des données de l'application est réalisée en utilisant les fonctionnalités de modèles fournies par Django. Les principales entités du système sont représentées par des modèles, tels que les jeux de société primés, les auteurs des jeux, les utilisateurs et les listes de souhaits. Des relations sont établies entre ces modèles pour assurer l'intégrité des données et permettre des fonctionnalités telles que l'ajout de jeux à une liste de souhaits.
+La modélisation des données de l'application est réalisée en utilisant les fonctionnalités de modèles fournies par Django. Les principales entités du système sont représentées par des modèles, tels que les jeux de société primés, les auteurs des jeux, les utilisateurs et les listes de souhaits. Des relations (cf [diagramme de classe](#model-classe)) sont établies entre ces modèles pour assurer l'intégrité des données et permettre des fonctionnalités telles que l'ajout de jeux à une liste de souhaits.
 ### d. Conception de l'interface utilisateur <a id="conception"></a>
 L'interface utilisateur de l'application est conçue en suivant les principes de l'expérience utilisateur (UX) pour offrir une expérience conviviale et intuitive. Des maquettes sont créés pour visualiser la disposition des éléments et le flux de navigation. Le design graphique est réalisé en utilisant HTML, CSS et JavaScript, en veillant à ce qu'il soit responsive et compatible avec différents appareils et résolutions d'écran.
 ## 4. Développement de l'application web <a id="developpement"></a>
@@ -189,6 +188,8 @@ Bien que l'application soit fonctionnelle et satisfasse les besoins de base, il 
 
 8. Modifier le design avec des fonctionnalités avancées de CSS et JavaScript.
 
+9. Héberger le site (PythonAnywhere, Hostinger, ...)
+
 Ces perspectives d'amélioration permettront d'enrichir davantage l'expérience utilisateur et d'assurer le développement continu de l'application.
 
 En conclusion, le projet de développement de l'application web "Les As d'Or des jeux de société" a été un succès malgré des éléments non aboutis. Le résultat final est une application web qui permet aux utilisateurs de découvrir les jeux de société primés.
@@ -198,8 +199,18 @@ En conclusion, le projet de développement de l'application web "Les As d'Or des
 Les diagrammes UML sont des représentations visuelles utilisées pour modéliser les différentes parties du système. Les diagrammes UML suivants sont inclus dans les annexes :
 
 - Diagramme de cas d'utilisation : Il présente les différentes actions que les utilisateurs peuvent effectuer sur l'application et les relations entre ces actions.
-- Diagramme de classes : Il montre les différentes classes et leurs relations dans le système, y compris les entités principales et les fonctionnalités clés.
+![Diagramme de cas d'utilisation de l'admin du site](assets/diags/diag_uc_admin.png)
+*Description de la capture d'écran 1.*
+![Diagramme de cas d'utilisation du visiteur](assets/diags/diag_uc_visiteur.png)
+*Description de la capture d'écran 1.*
+![Diagramme de cas d'utilisation du client](assets/diags/diag_uc_client.png)
+*Description de la capture d'écran 1.*
+- Diagramme de classes <a id="model-classe"> : Il montre les différentes classes et leurs relations dans le système, y compris les entités principales et les fonctionnalités clés.
+![Capture d'écran 1](chemin/vers/capture_ecran_1.png)
+*Description de la capture d'écran 1.*
 - Diagramme de séquence : Il illustre la séquence des interactions entre les utilisateurs et le système pour différentes fonctionnalités.
+![Capture d'écran 1](chemin/vers/capture_ecran_1.png)
+*Description de la capture d'écran 1.*
 
 ### b. Sources d'information utilisées <a id="sources"></a>
 Cette section répertorie les sources d'information qui ont été utilisées lors du développement de l'application web :
