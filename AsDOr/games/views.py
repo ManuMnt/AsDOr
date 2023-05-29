@@ -59,7 +59,7 @@ class GameDetailView(generic.DetailView):
 class UserCreationView (generic.CreateView):
     form_class = SignUpForm
     template_name = "registration/signup.html"
-    success_url = reverse_lazy('login')
+    success_url = reverse_lazy('games:login')
 
 class UserEditionView (generic.UpdateView):
     form_class = EditForm

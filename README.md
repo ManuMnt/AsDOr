@@ -39,8 +39,8 @@
 	- [Diagrammes UML](#diagrammes)
 	- [Sources d'information utilisées](#sources)
 
-## 1. <a id="introduction">Introduction</a>
-### a. <a id="presentation">Présentation du projet</a>
+## 1. Introduction<a id="introduction"></a>
+### a. Présentation du projet<a id="presentation"></a>
 Le projet consiste en le développement d'une application web pour les amateurs de jeux de société, nommée "Les As d'Or des jeux de société".
 
 L'application permettra aux utilisateurs de visualiser les jeux de société primés, de créer et de se connecter à un compte, ainsi que d'ajouter des jeux à une liste de souhaits.
@@ -199,17 +199,32 @@ En conclusion, le projet de développement de l'application web "Les As d'Or des
 Les diagrammes UML sont des représentations visuelles utilisées pour modéliser les différentes parties du système. Les diagrammes UML suivants sont inclus dans les annexes :
 
 - Diagramme de cas d'utilisation : Il présente les différentes actions que les utilisateurs peuvent effectuer sur l'application et les relations entre ces actions.
+
 ![Diagramme de cas d'utilisation de l'admin du site](./assets/diags/diag_uc_admin.drawio.png)
+
 *Description de la capture d'écran 1.*
+
 ![Diagramme de cas d'utilisation du visiteur](./assets/diags/diag_uc_visiteur.drawio.png)
+
 *Description de la capture d'écran 1.*
+
 ![Diagramme de cas d'utilisation du client](./assets/diags/diag_uc_client.drawio.png)
+
 *Description de la capture d'écran 1.*
+
 - Diagramme de classes <a id="model-classe"> : Il montre les différentes classes et leurs relations dans le système, y compris les entités principales et les fonctionnalités clés.
-![Capture d'écran 1](chemin/vers/capture_ecran_1.png)
+
+![Diagramme de classes](./assets/diags/diag_classes.drawio.png)
 *Description de la capture d'écran 1.*
+
 - Diagramme de séquence : Il illustre la séquence des interactions entre les utilisateurs et le système pour différentes fonctionnalités.
-![Capture d'écran 1](chemin/vers/capture_ecran_1.png)
+
+![Diagramme de séquence du module connexion](./assets/diags/diag_seq_connexion.drawio.png)
+
+*Description de la capture d'écran 1.*
+
+![Diagramme de séquence du module inscription](./assets/diags/diag_seq_inscription.drawio.png)
+
 *Description de la capture d'écran 1.*
 
 ### b. Sources d'information utilisées <a id="sources"></a>
