@@ -215,13 +215,18 @@ Les diagrammes UML sont des représentations visuelles utilisées pour modélise
 - Diagramme de classes <a id="model-classe"> : Il montre les différentes classes et leurs relations dans le système, y compris les entités principales et les fonctionnalités clés.
 
 ![Diagramme de classes](./assets/diags/diag_classes.drawio.png)
+
 *Un Game est crée par un ou plusieurs Author. Un Award est gagné par un seul Game. Un User a une seule Wishlist. Un User peut ajouter plusieurs Game a sa Wishlist. Une Wishlist inclus 0 ou plusieurs Game.*
 
 - Diagramme de séquence : Il illustre la séquence des interactions entre les utilisateurs et le système pour différentes fonctionnalités.
 
 ![Diagramme de séquence du module connexion](./assets/diags/diag_seq_connexion.drawio.png)
 
+*Diagramme de séquence du module connexion.*
+
 ![Diagramme de séquence du module inscription](./assets/diags/diag_seq_inscription.drawio.png)
+
+*Diagramme de séquence du module inscription.*
 
 
 ### b. Sources d'information utilisées <a id="sources"></a>
