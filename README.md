@@ -28,7 +28,6 @@
 6. [Gestion de projet](#gestion)
 	- [Méthodologie de gestion de projet utilisée](#methodologie)
 	- [Gestion des risques et des problèmes rencontrés](#gestion)
-	- [Suivi des délais et des ressources](#suivi)
 
 7. [Conclusion](#conclusion)
 	- [Résumé des résultats obtenus](#resume)
@@ -89,7 +88,7 @@ L'application web "Les As d'Or des jeux de société" est développée en utilis
 Pour le développement de l'application, les technologies et outils suivants ont été utilisés :
 
 - Framework : Django est choisi pour sa rapidité de développement, sa robustesse et sa richesse en fonctionnalités.
-- Base de données : PostgreSQL est utilisé pour stocker les informations relatives aux jeux de société primés, aux utilisateurs et aux listes de souhaits.
+- Base de données : SQLite3 est utilisé pour stocker les informations relatives aux jeux de société primés, aux utilisateurs et aux listes de souhaits.
 - Langages : Python est utilisé pour la logique backend, tandis que HTML, CSS et JavaScript sont utilisés pour le développement frontend.
 - Outils supplémentaires : Bootstrap est utilisé pour faciliter la création d'une interface utilisateur réactive et attrayante. Git est utilisé pour le contrôle de version du code source. Trello est utilisé pour faciliter la gestion des tâches.
 ### c. Modélisation des données <a id="modelisation"></a>
@@ -186,23 +185,10 @@ Pour visualiser les fonctionnalités de l'application, veuillez consulter les ca
 ### a. Méthodologie <a id="methodologie"></a>
 La gestion de projet pour le développement de l'application web "Les As d'Or des jeux de société" a suivi la méthodologie agile. Cette approche a permis une flexibilité et une adaptabilité accrues tout au long du processus de développement.
 
-La méthodologie agile a favorisé une collaboration étroite entre les membres de l'équipe de développement, les parties prenantes et les utilisateurs finaux. Des cycles de développement itératifs ont été mis en place, permettant de livrer des fonctionnalités incrémentales à intervalles réguliers.
-
-Les principaux éléments de la méthodologie agile utilisée comprenaient la plannification et l'estimation des sprints, les réunions quotidiennes de suivi, les revues régulières des fonctionnalités livrées et les rétrospectives pour améliorer continuellement le processus de développement.
+Des Sprints de 3 semaines ont été plannifiés et ont été en majorité respectés.
 
 ### b. Gestion des risques et problèmes rencontrés <a id="gestion"></a>
-La gestion des risques et des problèmes était un aspect important du projet. Une liste des risques potentiels a été établie dès le début du projet, en identifiant les problèmes éventuels et en proposant des mesures d'atténuation.
-
-Des mécanismes de suivi et de résolution des problèmes ont été mis en place. Les membres de l'équipe de développement ont été encouragés à signaler tout problème ou obstacle rencontré, afin de pouvoir y remédier rapidement et efficacement.
-
-Des réunions d'équipe régulières ont été organisées pour discuter des problèmes émergents, proposer des solutions et réévaluer les risques identifiés. Cette approche proactive a permis de minimiser les impacts négatifs sur le développement de l'application.
-
-### c. Suivi des délais et des ressources <a id="suivi"></a>
-Le suivi des délais et des ressources a été réalisé de manière rigoureuse tout au long du projet. Un calendrier de développement détaillé a été établi, en identifiant les principales étapes et les dates limites clés.
-
-Des outils de gestion de projet ont été utilisés pour suivre l'avancement du projet, affecter les ressources aux tâches spécifiques et s'assurer que les délais étaient respectés. Cela a permis de maintenir un rythme de développement constant et de prendre les mesures nécessaires en cas de déviations par rapport au plan initial.
-
-Les ressources nécessaires, telles que les membres de l'équipe de développement, les compétences techniques requises et les ressources matérielles, ont été allouées de manière appropriée pour garantir la progression régulière du projet et la livraison dans les délais impartis.
+Le principal problème rencontré, fût le manque de temps a cause d'une vie professionnelle chargée.
 
 ## 7. Conclusion <a id="conclusion"></a>
 ### a. Résumé des résultats obtenus <a id="resume"></a>
